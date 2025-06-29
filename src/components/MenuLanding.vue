@@ -1,6 +1,7 @@
 <script setup>
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+import PageLogo from './icons/PageLogo.vue'
 
 const navigation = [
   { name: 'Mensaje', href: '#Mensaje', current: false },
@@ -19,7 +20,7 @@ const navigation = [
         <div class="flex h-16 items-center justify-between">
           <div class="flex items-center justify-between w-full">
             <div class="shrink-0">
-              <p class="text-xl font-parisienne text-jm-primary">J&M</p>
+              <PageLogo class="h-6 w-auto border-jm-primary text-jm-primary" />
             </div>
             <div class="hidden md:block">
               <div class="ml-10 flex items-baseline space-x-4">
