@@ -5,14 +5,14 @@ import Title from './sub/SectionTitle.vue'
 const loader = ref(false)
 const responseSent = ref(false)
 
-const urlSearchParams = new URLSearchParams(window.location.search)
-const params = Object.fromEntries(urlSearchParams.entries())
-let pases = document.getElementById('pases')
-if (pases)
-  if (parseInt(params.pases) > 1) pases.innerHTML = params.pases.toString() + ' pases'
-  else pases.innerHTML = params.pases.toString() + ' pase'
-
 onMounted(() => {
+  const urlSearchParams = new URLSearchParams(window.location.search)
+  const params = Object.fromEntries(urlSearchParams.entries())
+  let pases = document.getElementById('pases')
+  if (pases)
+    if (parseInt(params.pases) > 1) pases.innerHTML = params.pases.toString() + ' pases'
+    else pases.innerHTML = params.pases.toString() + ' pase'
+
   document.getElementById('form').addEventListener('submit', function (e) {
     e.preventDefault()
     loader.value = true

@@ -28,7 +28,7 @@ const navigation = [
                   v-for="item in navigation"
                   :key="item.name"
                   :href="item.href"
-                  class="rounded-md px-3 py-2 text-jm-primary text-base font-parisienne"
+                  class="rounded-md px-3 py-2 text-jm-primary text-base"
                   :aria-current="item.current ? 'page' : undefined"
                   >{{ item.name }}</a
                 >
@@ -56,7 +56,7 @@ const navigation = [
             :key="item.name"
             as="a"
             :href="item.href"
-            class="block rounded-md px-3 py-2 text-jm-primary text-base font-parisienne"
+            class="block rounded-md px-3 py-2 text-jm-primary text-base"
             :aria-current="item.current ? 'page' : undefined"
             >{{ item.name }}</DisclosureButton
           >
