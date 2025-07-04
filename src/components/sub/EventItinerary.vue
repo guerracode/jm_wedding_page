@@ -18,7 +18,7 @@
         ></path>
       </svg>
       <p class="text-base">Ceremonia Religiosa</p>
-      <p class="text-base">5:00 - 6:00 PM</p>
+      <p class="text-base">5:00 PM</p>
     </div>
     <div class="flex flex-col items-center justify-center">
       <svg
@@ -34,7 +34,7 @@
         ></path>
       </svg>
       <p class="text-base">Recepción</p>
-      <p class="text-base">6:00 - 6:50 PM</p>
+      <p class="text-base">6:00 PM</p>
     </div>
     <div class="flex flex-col items-center justify-center">
       <svg
@@ -73,7 +73,7 @@
         </defs>
       </svg>
       <p class="text-base">Fiesta</p>
-      <p class="text-base">7:30 PM - 1:00 AM</p>
+      <p class="text-base">8:00 PM</p>
     </div>
   </div>
 </template>

@@ -10,8 +10,8 @@ onMounted(() => {
   const params = Object.fromEntries(urlSearchParams.entries())
   let pases = document.getElementById('pases')
   if (pases)
-    if (parseInt(params.pases) > 1) pases.innerHTML = params.pases.toString() + ' pases'
-    else pases.innerHTML = params.pases.toString() + ' pase'
+    if (parseInt(params.pases) > 1) pases.innerHTML = params.pases + ' pases'
+    else pases.innerHTML = params.pases + ' pase'
 
   document.getElementById('form').addEventListener('submit', function (e) {
     e.preventDefault()
@@ -45,12 +45,16 @@ onMounted(() => {
         if (response) {
           return response
         } else {
+          console.error('Error al enviar el formulario:')
           throw new Error('Failed to submit form.')
         }
       })
       .then(function () {
         loader.value = false
         responseSent.value = true
+      })
+      .catch(function (error) {
+        console.error('Error:', error)
       })
   })
 })
