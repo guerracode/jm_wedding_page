@@ -7,11 +7,11 @@ const responseSent = ref(false)
 
 onMounted(() => {
   const urlSearchParams = new URLSearchParams(window.location.search)
-  const params = Object.fromEntries(urlSearchParams.entries())
+  const params = urlSearchParams.get('pases')
   let pases = document.getElementById('pases')
   if (pases)
-    if (parseInt(params.pases) > 1) pases.innerHTML = params.pases + ' pases'
-    else pases.innerHTML = params.pases + ' pase'
+    if (parseInt(params) > 1) pases.innerHTML = params + ' pases'
+    else pases.innerHTML = params + ' pase'
 
   document.getElementById('form').addEventListener('submit', function (e) {
     e.preventDefault()
