@@ -6,7 +6,11 @@ import Title from './sub/SectionTitle.vue'
   <section id="Regalos" class="lg:w-5xl mx-auto mt-10">
     <Title title="Sugerencia de regalos" />
     <div class="flex flex-col items-center justify-center mt-10 px-10">
-      <img src="/img/liverpool.png" alt="Regalo Liverpool" class="w-60" />
+      <img
+        src="https://jessymike.s3.us-east-2.amazonaws.com/liverpool.png"
+        alt="Regalo Liverpool"
+        class="w-60"
+      />
       <a
         class="block w-full text-center border-2 border-jm-primary rounded-4xl py-2 mt-4 font-bold"
         href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51766535"

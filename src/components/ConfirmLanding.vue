@@ -11,7 +11,7 @@ onMounted(() => {
   let pases = document.getElementById('pases')
   if (pases)
     if (parseInt(params) > 1) pases.innerHTML = params + ' pases'
-    else pases.innerHTML = params + ' pase'
+    else pases.innerHTML = '1 pase'
 
   document.getElementById('form').addEventListener('submit', function (e) {
     e.preventDefault()

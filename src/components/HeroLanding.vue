@@ -71,8 +71,9 @@ section .hero {
   height: calc(100vh - 64px);
   display: flex;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%),
-    url('../../public/background_hero.jpg') lightgray 50% / cover no-repeat;
+    url('https://jessymike.s3.us-east-2.amazonaws.com/hero_image.jpg') lightgray 50% / cover
+      no-repeat;
   background-position: center;
-  background-position-x: 38%;
+  background-position-y: 75%;
 }
 </style>

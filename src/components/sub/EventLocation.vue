@@ -2,12 +2,12 @@
   <section class="mt-10">
     <div class="flex items-center justify-evenly">
       <img
-        src="/img/ubi_1.jpg"
+        src="https://jessymike.s3.us-east-2.amazonaws.com/ubi_1.jpg"
         alt="Ubicacion"
         class="w-40 h-40 border-4 border-jm-primary rounded-xl"
       />
       <img
-        src="/img/ubi_2.jpg"
+        src="https://jessymike.s3.us-east-2.amazonaws.com/ubi_2.jpg"
         alt="Ubicacion"
         class="w-40 h-40 border-4 border-jm-primary rounded-xl"
       />
@@ -19,7 +19,11 @@
           45653 La Unión del Cuatro, Jal.
         </p>
 
-        <img src="/img/map_jm.png" alt="map" class="w-full my-2" />
+        <img
+          src="https://jessymike.s3.us-east-2.amazonaws.com/map_jm.png"
+          alt="map"
+          class="w-full my-2"
+        />
 
         <a
           class="block w-full h-full border-2 border-jm-primary rounded-4xl py-2 mt-4 font-bold"

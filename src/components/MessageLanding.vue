@@ -4,7 +4,11 @@
 <template>
   <section id="Mensaje" class="flex flex-col items-center justify-center pt-10">
     <div>
-      <img src="/jm_circle.png" alt="jm_circle" class="w-60" />
+      <img
+        src="https://jessymike.s3.us-east-2.amazonaws.com/jm_circle.png"
+        alt="jm_circle"
+        class="w-60"
+      />
     </div>
     <div class="text-jm-primary text-center p-3">
       <p class="text-xl font-theseasons">
