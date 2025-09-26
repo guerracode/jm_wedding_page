@@ -39,12 +39,12 @@ var x = setInterval(function () {
 
 <template>
   <section class="relative">
-    <div class="hero flex flex-col items-center justify-between p-6 text-jm-secondary">
+    <div class="hero flex flex-col items-center p-6 text-jm-secondary">
       <div class="text-center mt-10">
         <h1 class="text-4xl italic font-bold">Jessica & Miguel</h1>
         <h3 class="text-xl mt-3 italic">21 Marzo 2026</h3>
       </div>
-      <div class="flex items-center justify-center">
+      <div class="flex items-center justify-center mt-4">
         <div class="flex flex-col items-center justify-between m-3">
           <p class="text-2xl" id="days">310</p>
           <p class="text-xl italic">Dias</p>
