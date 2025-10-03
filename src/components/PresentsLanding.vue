@@ -4,11 +4,10 @@
 <template>
   <section id="Regalos" class="lg:w-5xl mx-auto mt-10">
     <div class="text-jm-primary text-center p-3">
-      <p class="text-xl font-theseasons">
+      <p class="text-xl font-theseasons pr-4 pl-4">
         <span class="font-bold">
-          El verdadero regalo es tenerte con nosotros en este día tan especial. Pero si quieres
-          sorprendernos con un detalle extra, encontrarás una lista preparada en Liverpool con cosas
-          que apreciamos mucho. Dos almas un destino, dos caminos que se cruzan para caminar juntos.
+          El verdadero regalo es compartir este día contigo. Pero si deseas darnos un detalle
+          especial, hemos preparado una lista en Liverpool que con mucho cariño hemos elegido.
         </span>
       </p>
     </div>

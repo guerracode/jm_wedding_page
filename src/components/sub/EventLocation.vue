@@ -14,6 +14,7 @@
     </div>
     <div class="flex flex-col md:flex-row items-center justify-evenly mt-5 px-10">
       <div class="text-center">
+        <h5 class="font-bold text-lg mb-2">Ubicación</h5>
         <p class="text-xl">
           Av. Concepción 1010 A, <br />
           45653 La Unión del Cuatro, Jal.

@@ -5,7 +5,7 @@
   <section id="Mensaje" class="flex flex-col items-center justify-center pt-10">
     <div>
       <img
-        src="https://jessymike.s3.us-east-2.amazonaws.com/circle_jm_last.JPG"
+        src="https://jessymike.s3.us-east-2.amazonaws.com/circle_jm_last-min.JPG"
         alt="jm_circle"
         class="w-50 h-50 rounded-full object-cover"
       />
