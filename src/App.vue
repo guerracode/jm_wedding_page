@@ -19,27 +19,15 @@ import ConfirmLanding from './components/ConfirmLanding.vue'
     <HeroLanding />
     <MessageLanding />
     <SectionDivider />
-    <GaleryLanding />
-    <SectionDivider />
     <EventLanding />
-    <SectionDivider />
-    <PresentsLanding />
     <SectionDivider />
     <VestimentLanding />
     <SectionDivider />
+    <GaleryLanding />
+    <SectionDivider />
+    <PresentsLanding />
+    <SectionDivider />
     <ConfirmLanding />
-    <!--
-    <Message />
-    <Divider />
-    <Galery />
-    <Divider />
-    <Event />
-    <Divider />
-    <Presents />
-    <Divider />
-    <Vestiment />
-    <Divider />
-    <Confirm /> -->
   </main>
 </template>
 

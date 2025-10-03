@@ -3,12 +3,15 @@ import { onMounted, ref } from 'vue'
 import Title from './sub/SectionTitle.vue'
 
 const loader = ref(false)
+const _pases = ref(1)
 const responseSent = ref(false)
 
 onMounted(() => {
   const urlSearchParams = new URLSearchParams(window.location.search)
   const params = urlSearchParams.get('pases')
   let pases = document.getElementById('pases')
+  _pases.value = params ? parseInt(params) : 1
+
   if (pases)
     if (parseInt(params) > 1) pases.innerHTML = params + ' pases'
     else pases.innerHTML = '1 pase'
@@ -67,9 +70,7 @@ onMounted(() => {
       class="max-w-lg mx-auto flex flex-col items-center justify-center mt-10 p-4 text-center border-2 border-jm-primary rounded-4xl"
     >
       <p class="text-xl not-italic mb-4">¡Nos encantaría contar contigo!</p>
-      <p class="text-base mb-4">
-        Por favor, confirma tu asistencia antes del 5 de Noviembre de 2025.
-      </p>
+      <p class="text-base mb-4">Por favor, confirma tu asistencia.</p>
       <p class="text-base mb-4 not-italic">Respetuosamente no niños</p>
       <p class="text-base">Hemos reservado para ti:</p>
       <p id="pases" class="text-xl font-bold underline">1 pase</p>
@@ -105,8 +106,11 @@ onMounted(() => {
             required
           >
             <option value="" disabled selected>Selecciona una opción</option>
-            <option value="Si">Sí, asistiré</option>
-            <option value="No">No podré asistir</option>
+            <option value="Asistirá (1 de 1)" v-if="_pases == 1">Sí, asistiré</option>
+            <option value="No asistirá (0 de 1)" v-if="_pases == 1">No podré asistir</option>
+            <option value="Asistirá (1 de 2)" v-if="_pases > 1">Asistirá 1 persona</option>
+            <option value="Asistirá (2 de 2)" v-if="_pases > 1">Asistirán 2 personas</option>
+            <option value="No asistirán (0 de 2)" v-if="_pases > 1">No asistiremos</option>
           </select>
         </div>
         <div class="flex flex-col items-start justify-center mt-4">

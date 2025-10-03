@@ -5,10 +5,10 @@ import PageLogo from './icons/PageLogo.vue'
 
 const navigation = [
   { name: 'Mensaje', href: '#Mensaje', current: false },
-  { name: 'Galeria', href: '#Galeria', current: false },
   { name: 'Evento', href: '#Evento', current: false },
-  { name: 'Regalos', href: '#Regalos', current: false },
   { name: 'Vestimenta', href: '#Vestimenta', current: false },
+  { name: 'Galeria', href: '#Galeria', current: false },
+  { name: 'Regalos', href: '#Regalos', current: false },
   { name: 'Confirmar', href: '#Confirmar', current: false },
 ]
 </script>
