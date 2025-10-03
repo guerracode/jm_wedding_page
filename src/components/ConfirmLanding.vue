@@ -78,11 +78,23 @@ onMounted(() => {
       <div class="loader my-10" v-if="loader"></div>
       <form v-if="!loader" class="w-full" id="form" method="POST">
         <div class="flex flex-col items-start justify-center mt-4">
-          <label for="name" class="text-base mb-2">Nombre:</label>
+          <label for="name" class="text-base mb-2"
+            >Nombre <span v-if="_pases > 1">invitado uno</span>:</label
+          >
           <input
             type="text"
             id="name"
             name="Nombre"
+            class="border-2 border-jm-primary rounded-lg p-2 w-full focus:border-amber-950 focus:outline-none"
+            required
+          />
+        </div>
+        <div v-if="_pases > 1" class="flex flex-col items-start justify-center mt-4">
+          <label for="name" class="text-base mb-2">Nombre invitado dos:</label>
+          <input
+            type="text"
+            id="nameTwo"
+            name="NombreInvitadoDos"
             class="border-2 border-jm-primary rounded-lg p-2 w-full focus:border-amber-950 focus:outline-none"
             required
           />

@@ -17,6 +17,7 @@
         alt="Regalo Liverpool"
         class="w-60"
       />
+      <p class="m-2">Numero de evento: <span class="font-bold">51766535</span></p>
       <a
         class="block w-full text-center border-2 border-jm-primary rounded-4xl py-2 mt-4 font-bold"
         href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51766535"
