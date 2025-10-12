@@ -5,11 +5,13 @@
         src="https://jessymike.s3.us-east-2.amazonaws.com/ubi_1.jpg"
         alt="Ubicacion"
         class="w-40 h-40 border-4 border-jm-primary rounded-xl"
+        loading="lazy"
       />
       <img
         src="https://jessymike.s3.us-east-2.amazonaws.com/ubi_2.jpg"
         alt="Ubicacion"
         class="w-40 h-40 border-4 border-jm-primary rounded-xl"
+        loading="lazy"
       />
     </div>
     <div class="flex flex-col md:flex-row items-center justify-evenly mt-5 px-10">
@@ -24,6 +26,7 @@
           src="https://jessymike.s3.us-east-2.amazonaws.com/map_jm.png"
           alt="map"
           class="w-full my-2"
+          loading="lazy"
         />
 
         <a

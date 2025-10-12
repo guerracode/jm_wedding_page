@@ -6,7 +6,11 @@ import Title from './sub/SectionTitle.vue'
   <section id="Vestimenta" class="lg:w-5xl mx-auto">
     <Title title="Vestimenta" />
     <div class="flex flex-col items-center justify-center mt-10 px-10 text-center">
-      <img src="https://jessymike.s3.us-east-2.amazonaws.com/clothes.png" alt="clothes" />
+      <img
+        src="https://jessymike.s3.us-east-2.amazonaws.com/clothes.png"
+        alt="clothes"
+        loading="lazy"
+      />
       <p class="my-4 text-xl not-italic">Etiqueta formal</p>
       <p class="text-base mb-2"><span class="font-bold">Mujeres:</span> Vestido largo.</p>
       <p class="text-base mb-3">
