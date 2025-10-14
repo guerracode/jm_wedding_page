@@ -17,18 +17,18 @@ import Title from './sub/SectionTitle.vue'
         class="object-cover h-30 md:h-60 w-full"
         loading="lazy"
       />
-      <img
+      <!-- <img
         src="https://jessymike.s3.us-east-2.amazonaws.com/3_jm-min.jpg"
         alt="Jessica y Miguel"
         class="object-cover h-30 md:h-60 w-full"
         loading="lazy"
-      />
-      <img
+      /> -->
+      <!-- <img
         src="https://jessymike.s3.us-east-2.amazonaws.com/4_jm-min.jpg"
         alt="Jessica y Miguel"
         class="object-cover h-30 md:h-60 w-full"
         loading="lazy"
-      />
+      /> -->
       <img
         src="https://jessymike.s3.us-east-2.amazonaws.com/5_jm-min.jpg"
         alt="Jessica y Miguel"
